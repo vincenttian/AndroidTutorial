@@ -25,8 +25,8 @@
                 android:value="com.example.myfirstapp.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.androidtutorial.app.ListViewExampleActivity"
-            android:label="@string/title_activity_list_view_example" >
+            android:label="@string/app_name"
+            android:name="com.example.androidtutorial.app.ListViewExampleActivity">
         </activity>
     </application>
 

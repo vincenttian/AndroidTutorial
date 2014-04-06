@@ -49,4 +49,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void openListView(View view) {
+        Intent myIntent = new Intent(this,ListViewExampleActivity.class);
+        this.startActivity(myIntent);
+    }
+    
 }
